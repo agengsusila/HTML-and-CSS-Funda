@@ -1,0 +1,41 @@
+body{
+    margin: 10px;
+}
+
+.container{
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    width: 100%;
+    border: 2px solid #bebebe;
+    padding-left: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+article{
+    width: 650px;
+    border: 1px solid #bebebe;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 150px;
+    border: 1px solid #bebebe;
+    background:cornflowerblue;
+    box-sizing: border-box;
+}
+
+footer{
+    width: 100%;
+    border: 2px solid #bebebe;
+    padding: 10px 20px;
+    text-align: right;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
