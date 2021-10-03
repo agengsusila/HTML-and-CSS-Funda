@@ -17,18 +17,35 @@ header{
     border-top-right-radius: 5px;
 }
 
-article{
+.content{
     width: 650px;
     border: 1px solid #bebebe;
     padding: 40px;
     box-sizing: border-box;
 }
 
-nav{
+nav.sidebar{
     width: 150px;
     border: 1px solid #bebebe;
-    background:cornflowerblue;
+    background:rgb(46, 84, 211);
     box-sizing: border-box;
+}
+
+nav.sidebar a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #bebebe;
+    padding: 10px;
+}
+
+nav.sidebar a:hover{
+    background-color:cornflowerblue;
+}
+
+nav.sidebar a.active{
+    background-color:darkblue;
 }
 
 footer{
