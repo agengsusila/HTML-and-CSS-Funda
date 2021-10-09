@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/form.css" type="text/css">
+    <title>Komponen | Form</title>
+</head>
+<body>
+    <section class="container">
+        <header>
+            <img src="images/logo1.png" alt="LOGO">
+        </header>
+        <section class="content">
+            <form action="post">
+                <label class="form-style">
+                    Nama Lengkap
+                    <input type="text" class="input" placeholder="">
+                </label>
+
+                <label class="form-style">
+                    Telepon
+                    <input type="number" class="input" placeholder="">
+                </label>
+
+                <label class="form-style">
+                    Email
+                    <input type="email" class="input" placeholder="">
+                </label>
+
+                <label class="form-style">
+                    Alamat
+                    <textarea class="input"></textarea>
+                </label>
+
+                <fieldset class="form-style">
+                    <legend>UKM yang Diikuti</legend>
+                    <label>
+                        <input type="checkbox" value="flmpi">FLMPI
+                    </label>
+                    <label>
+                        <input type="checkbox" value="form">FORM
+                    </label> 
+                    <label>
+                        <input type="checkbox" value="ldk-foskomi">LDK Foskomi
+                    </label> 
+                    <label>
+                        <input type="checkbox" value="hpa-tradyakala">HPA-Tradyakala
+                    </label>
+                    <label>
+                        <input type="checkbox" value="lpm-industria">LPM Industria
+                    </label>
+                    <label>
+                        <input type="checkbox" value="pmk">PMK
+                    </label>
+                    <label>
+                        <input type="checkbox" value="ksr-pmi">KSR PMI
+                    </label>
+                    <label>
+                        <input type="checkbox" value="fksm">FKSM
+                    </label>
+                </fieldset>
+
+                <fieldset class="form-style">
+                    <legend>Program Studi</legend>
+                    <label>
+                        <input type="radio" value="abo" name="prodi">ABO
+                    </label>
+                    <label>
+                        <input type="radio" value="siio" name="prodi">SIIO
+                    </label>
+                    <label>
+                        <input type="radio" value="tio" name="prodi">TIO
+                    </label>
+                    <label>
+                        <input type="radio" value="tro" name="prodi">TRO
+                    </label>  
+                </fieldset>
+
+                <label class="form-style">
+                    Jenis Kelamin
+                    <select class="input">
+                        <option value="lakilaki">Laki-laki</option>
+                        <option value="perempuan">Perempuan</option>
+                    </select>
+                </label>
+
+                <label class="form-style">
+                    Ukuran Almet
+                    <input list="ukuran_almet" class="input">
+                    <datalist id="ukuran_almet">
+                        <option value="S">48cmx67cm
+                        <option value="M">50cmx69cm
+                        <option value="L">52cmx71cm
+                        <option value="XL">54cmx72cm
+                        <option value="XXL">56cmx75cm
+                    </datalist>
+                </label>
+
+                <input type="submit" value="Kirim">
+
+            </form>
+        </section>
+        <nav class="sidebar">
+                <a href="index.html" >Index</a>
+                <a href="form.html" class="active">Form</a>
+                <a href="table.html">Table</a>
+        </nav>
+        <footer>Footer</footer>
+    </section>
+</body>
+</html>
